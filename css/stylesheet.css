@@ -7,3 +7,10 @@ h1{
 p{
     color: rgb(62, 71, 152)
 }
+aside {
+    width: 15%;
+    padding-left: 15px;
+    margin-left: 1px;
+    float: right;
+    font-style: italic;
+  }
