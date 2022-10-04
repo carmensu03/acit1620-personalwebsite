@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(177, 165, 229)
+    background-color:white
 }
 h1{
-    color: rgb(85, 99, 225)
+    color: black
 }
 p{
-    color: rgb(62, 71, 152)
+    color: black
 }
 aside {
     width: 15%;
@@ -14,3 +14,7 @@ aside {
     float: right;
     font-style: italic;
   }
+
+nav{
+    background-color: lightblue;
+}
