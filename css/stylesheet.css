@@ -21,9 +21,13 @@ aside {
 nav{
     background-color: #A6CAD4;
     text-align: center;
-
 }
-
+div{
+    background-color: #A6CAD4;
+    text-align: center;
+}
 #headfont{
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #334259;
+    text-align: center;
 }
