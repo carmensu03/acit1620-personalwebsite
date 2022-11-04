@@ -45,7 +45,12 @@ div{
     margin: 15px;
 }
 
+.bordermiddle{
+    border-top:black 1px solid;
+    padding-top: 2%;
+}
+
 @media screen and (min-width:600px){
-    p{font-display: ;}
+    p{font-display: }
 }
 
