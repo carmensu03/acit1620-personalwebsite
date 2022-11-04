@@ -4,6 +4,8 @@ body{
 
 nav{
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .p{
     display: grid;
