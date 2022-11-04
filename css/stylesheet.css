@@ -27,6 +27,8 @@ nav{
 }
 header{
     background-color: #A6CAD4;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 #headfont{
     font-family: 'Montserrat', sans-serif;
@@ -39,7 +41,11 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width:600px){
-    
+div{
+    margin: 15px;
+}
+
+@media screen and (min-width:600px){
+    p{font-display: ;}
 }
 
