@@ -7,25 +7,21 @@ while(input == "1620");
 // console.log(input);
 alert(`Welcome ${input}`)
 
-let courseList1 = {
+let courseList = 
+[{
     classID: "ACIT-1420",
     teacher: "Akila Ramani",
-    program: "CIT",
-};
-
-let courseList2 = {
+    name: "Intro to System Admin",},
+{
     classID: "ACIT-1620",
     teacher: "Neda Changizi",
-    program: "CIT",
-};
-
-let courseList3 = {
+    name: "Web Fundamental Technologies",},
+{
     classID: "ACIT-1630",
     teacher: "Benjamin Yu",
-    program: "CIT",
-};
+    name: "Database Systems",
+}]
 
-let courses = [course1, course2, course3];
 let counter = 0
 for (let stud of students)
 {
