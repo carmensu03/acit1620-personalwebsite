@@ -3,9 +3,7 @@ do{
     input = prompt("4 digit course code");
     // console.log(Number(input));
 }
-while(input == "1620");
-// console.log(input);
-alert(`Welcome ${input}`)
+while(input.length != 4 || isNaN(Number(input)));
 
 let courseList = 
 [{
