@@ -7,15 +7,15 @@ while(input.length != 4 || isNaN(Number(input)));
 
 let courseList = 
 [{
-    classID: "ACIT-1420",
+    code: "1420",
     teacher: "Akila Ramani",
     name: "Intro to System Admin",},
 {
-    classID: "ACIT-1620",
+    code: "1620",
     teacher: "Neda Changizi",
     name: "Web Fundamental Technologies",},
 {
-    classID: "ACIT-1630",
+    code: "1630",
     teacher: "Benjamin Yu",
     name: "Database Systems",
 }]
