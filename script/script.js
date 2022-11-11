@@ -24,7 +24,12 @@ let repeat = false
 for(let course of courseList) 
 {
     if (course['code'].includes(input))
-        {console.log(`Yes I am taking the course: ${course.code} - ${courseList.name}`);
-
+        {console.log(`Yes I am taking the course: ${course.code} - ${course.name}`);
+        repeat = true
     }   
-}
+
+    if (repeat === false)
+        courseList.push({"code": input, "name": null})
+
+        {console.log(`Success`)};
+}   
