@@ -30,6 +30,7 @@ for(let course of courseList)
 } 
 
 if (repeat === false)
-    courseList.push({"code": input, "name": null})
+    {
+        courseList.push({"code": input, "name": null})
     {console.log(`Success`)};
-
+    }
