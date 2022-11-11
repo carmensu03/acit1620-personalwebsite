@@ -7,27 +7,24 @@ while(input.length != 4 || isNaN(Number(input)));
 
 let courseList = 
 [{
-    code: "1420",
+    code: "ACIT 1420",
     teacher: "Akila Ramani",
     name: "Intro to System Admin",},
 {
-    code: "1620",
+    code: "ACIT 1620",
     teacher: "Neda Changizi",
     name: "Web Fundamental Technologies",},
 {
-    code: "1630",
+    code: "ACIT 1630",
     teacher: "Benjamin Yu",
     name: "Database Systems",
-}]
+}];
 
-let counter = 0
-for (let stud of students)
+let repeat = false
+for(let course of courseList) 
 {
-    if(stud.program === "CIT" && stud.GPA > 3)
-    {
-        counter++;
-    }
-        
-    // console.log(stud)
+    if (course['code'].includes(input))
+        {console.log(`Yes I am taking the course: ${course.code} - ${courseList.name}`);
+
+    }   
 }
-console.log(counter)
